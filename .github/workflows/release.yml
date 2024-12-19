@@ -1,11 +1,11 @@
 name: 'C++ CI'
 
-# Запускаем workflow при пуше в ветки lab1 или feature/github_actions
+
 on: 
   # событие запускаем
   push:
     branches:
-      - lab4
+      - main
       - feature/github_actions
 
 jobs:
